@@ -33,4 +33,12 @@ CREATE TABLE boompop.payments_partitioned (
 ) PARTITION BY RANGE (payment_month);
 ```
 
+## Performance vs Data Accuracy
 
+When querying large datasets, there is often a trade off between performance & data accuracy. For example, in the suggestion I've made above about partitioning, this will increase database performance when trying to pull information about payments by month but it will decrease data accurary because the user would have to wait for an entire month to pass before querying for this month (ie cannot query for current month). 
+
+In order to evaluate the trade-off between performance and data accuracy for EventX's data, I would ask the following questions: 
+- How important is it for this data to be as real-time as possible?
+- How often does the historical data change?
+- How much data per table is here (ie how many rows)?
+- Do we have enough compute resources to process real-time data efficiently?
