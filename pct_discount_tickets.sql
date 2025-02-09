@@ -6,8 +6,8 @@ select
     count(case when t.discount_applied > 0 then t.ticket_id end) as discounted_tickets,
     round(
         (count(case when t.discount_applied > 0 then t.ticket_id end) * 100.0) / nullif(count(t.ticket_id), 0), 2
-    ) as discount_percentage
+    ) as pct_tickets_discounted
 from boompop.tickets t
 left join boompop.events e on t.event_id = e.event_id
 group by e.event_category
-order by discount_percentage desc;
+order by pct_tickets_discounted desc;
