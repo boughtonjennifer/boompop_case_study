@@ -15,7 +15,7 @@ Sales Conversion Rate (%) = (Total Tickets Sold / Total Users Who Viewed Ticket 
 ## 2. Sell-Through Rate (%)  
 
 This KPI would help EventX:  
-- Track inventory management—if events have unsold tickets, pricing & marketing may need adjustments.  
+- Track inventory management — if events have unsold tickets, pricing & marketing may need adjustments.  
 - Identify whether certain events have stronger demand.  
 
 ### Equation
