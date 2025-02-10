@@ -1,13 +1,15 @@
 # Ticket Sales Performance Dashboard
 
 ## Overview Section (High-Level Summary)
-A top KPI banner displaying:
+Charts & Insights:
 
 - Sales Conversion Rate (SCR%)
 - Sell-Through Rate (STR%)  
 - Average Time to Sell (TTS in Days)
 - Revenue from Ticket Sales 
 - Month-over-Month Revenue Change (%)
+
+Purpose: Provides at-a-glance summary of ticket sale performance.
 
 ## Sales & Demand Trends Section
 
@@ -17,12 +19,16 @@ Charts & Insights:
 - Sell Through Rate % by Event Category (Bar Chart)
 - Demand Heatmap (high vs low demand events by location)
 
+Purpose: Helps leadership identify demand trends, pricing opportunities, and areas for improvement.
+
 ## Sales Funnel & Performance Breakdown Section
 
 Charts & Insights:
 - Sales Conversion Funnel (Funnel Chart)
 - Sell-Through Rate Drivers (Stacked Bar Chart): STR% by ticket price range, discount usage, and event type
 - Average Time to Sell over time (Line Chart)
+
+Purpose: Provides deeper insights into what drives conversions, sell-through performance, and ticket velocity.
 
 ## Additional Features
 
