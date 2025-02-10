@@ -1,4 +1,4 @@
--- Use window functions to nd the moving average of the discount percentage (over the last 3 months) for each event category.
+-- Use window functions to find the moving average of the discount percentage (over the last 3 months) for each event category.
 
 with monthly_discount_data as (
 
