@@ -36,8 +36,8 @@ Tasks include:
     - Performance Optimizations: `performance_optimization.md`
 
 2. KPI Recommendations:
+Tasks include: 
+- 3 key metrics to track ticket sales effectiveness: `kpi_recommendations.md`
+- Dashboard structure for leadership to monitor these insights: `dashboard_structure.md`
 
-
- 
-
-**Questions or contributions? Feel free to reach out!**
+**Questions? Feel free to reach out!**

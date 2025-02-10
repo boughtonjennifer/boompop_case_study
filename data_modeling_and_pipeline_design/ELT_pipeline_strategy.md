@@ -19,4 +19,6 @@ Fivetran re-syncs recent historical data (within a specific window) to capture m
 
 ## Fault Tolerance & Scalability
 
-Snowflake’s warehouses autoscale dynamically, which allows for more resources to be designated when querying. Additionally, Snowflake bills compute & storage separately and storage is relatively cheap compared to compute, which is helpful for a scaling database. 
+Fivetran's re-sync windows and soft deletes strategies mentioned above can also work to maximize fault tolerance.
+
+Additionally, dbt can set up pipelines that use modular, isolated data models: this allows one model to fail without breaking an entire pipeline. There is also a suite of tools built into the dbt infrastructure for data testing to prevent bad data from propagating. 
